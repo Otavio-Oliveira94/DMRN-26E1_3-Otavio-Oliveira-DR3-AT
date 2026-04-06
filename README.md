@@ -1,11 +1,26 @@
-# Sample Snack app
+# Infnet Food
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Instruções básicas para executar o projeto localmente.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Requisitos
+- [Node.js (LTS)](https://snack.expo.dev/)
+- npm ou yarn
+- Expo CLI (opcional) — pode usar `npx expo` sem instalar globalmente
+- Dispositivo físico com Expo Go para testar notificações locais
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Instalação e execução
+```bash
+# clonar repositório
+git clone <REPO_URL>
+cd <PASTA_DO_PROJETO>
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+# instalar dependências
+npm install
+# ou
+# yarn install
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+# instalar dependências nativas usadas pelo projeto
+npx expo install expo-notifications @react-native-async-storage/async-storage
+
+# iniciar o Metro / Expo
+npx expo start
