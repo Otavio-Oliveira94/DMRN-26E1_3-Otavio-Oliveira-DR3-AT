@@ -1,0 +1,146 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingHorizontal: 20,
+    paddingTop: 58,
+    paddingBottom: 20,
+  },
+  menuFixo: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 14,
+  },
+  acaoEsquerda: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  botaoPerfil: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 10,
+    marginRight: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  textoBotaoPerfil: {
+    color: '#222222',
+    fontWeight: '800',
+  },
+  acaoDireita: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  botaoCarrinho: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 10,
+    marginRight: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  textoBotaoCarrinho: {
+    color: '#222222',
+    fontWeight: '800',
+    marginRight: 8,
+  },
+  badge: {
+    backgroundColor: '#ff4b2b',
+    borderRadius: 10,
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    minWidth: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  badgeTexto: {
+    color: '#fff',
+    fontWeight: '800',
+  },
+  botaoSair: {
+    backgroundColor: 'rgba(0,0,0,0.12)',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 10,
+  },
+  textoBotaoSair: {
+    color: '#ffffff',
+    fontWeight: '700',
+  },
+  titulo: {
+    fontSize: 24,
+    fontWeight: '800',
+    color: '#ffffff',
+    marginBottom: 12,
+    textAlign: 'center',
+  },
+  listaConteudo: {
+    paddingBottom: 40,
+  },
+  itemCategoria: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    borderRadius: 14,
+    paddingVertical: 12,
+    paddingHorizontal: 12,
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOpacity: 0.18,
+    shadowOffset: { width: 0, height: 6 },
+    shadowRadius: 8,
+    elevation: 6,
+  },
+  itemLinha: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  barraDestaque: {
+    width: 8,
+    height: '100%',
+    borderRadius: 6,
+    backgroundColor: '#ff4b2b',
+    marginRight: 12,
+  },
+  conteudoItem: {
+    flex: 1,
+  },
+  nomeCategoria: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#222222',
+    marginBottom: 6,
+  },
+  descricaoCategoria: {
+    fontSize: 13,
+    color: '#444444',
+  },
+  itemCategoriaEscuro: {
+    backgroundColor: 'rgba(255,255,255,0.98)',
+  },
+  botaoMapa: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderRadius: 10,
+    marginRight: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  textoBotaoMapa: {
+    color: '#222222',
+    fontWeight: '800',
+  },
+  botaoConfig: {
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderRadius: 10,
+    marginRight: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+}); 
